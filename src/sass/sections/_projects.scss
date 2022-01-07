@@ -47,6 +47,8 @@
       & p > a {
         color: $secondary-color;
       }
+
+
     }
 
     &__image {
@@ -74,5 +76,13 @@
         }
       }
     }
+  }
+  img{
+  }
+  .right-text{
+    padding-left: 2rem;
+  }
+  p {
+    line-height: 2;
   }
 }
