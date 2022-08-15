@@ -53,7 +53,13 @@
           I'm a Front-end developer <i class='fa fa-code text-color-main'></i>
         </h1>
         <p class="hero-cta load-hidden">
-          <a rel="noreferrer" class="cta-btn cta-btn--hero" href="#about">Know more</a>
+          <a rel="noreferrer" class="cta-btn cta-btn--hero" href="#about">About me</a>
+        </p>
+        <p class="hero-cta load-hidden">
+          <a rel="noreferrer" class="cta-btn cta-btn--hero" href="#projects">Projects</a>
+        </p>
+        <p class="hero-cta load-hidden">
+          <a rel="noreferrer" class="cta-btn cta-btn--hero" href="#contact">Contact</a>
         </p>
       </div>
     </section>
@@ -89,7 +95,7 @@
                   rel="noreferrer"
                   target="_blank"
                   class="cta-btn cta-btn--resume"
-                  href="assets/resume_WD.pdf"
+                  href="assets/Web Developer.pdf"
                 >
                   View Resume
                 </a>
@@ -114,9 +120,8 @@
                 <h3 class="project-wrapper__text-title">The Royal Game of Ur demo</h3>
                 <div>
                   <p class="mb-4">
-                    Prototype of an ancient boardgame. It allows for changing the number of pieces,
-                    toggling between dark and light mode. Responsive to a variety of screen sizes.
-                    Built with React, Bootstrap, CSS and Sass.
+                    Prototype of an ancient boardgame. It allows for changing the number of pieces.
+                    Built with React and Bootstrap.
                   </p>
                 </div>
                 <a
@@ -159,6 +164,59 @@
           </div>
           <!-- /END Project -->
 
+          <!-- Notice: each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">Character recognition</h3>
+                <div>
+                  <p class="mb-4">
+                    This app takes an image or PDF file and extracts the text within.
+                    For this purpose, the Azure Computer Vision API is employed.
+                    Built with Express and Bootstrap.
+
+                  </p>
+                </div>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--hero"
+                  href="https://talavera-ocr.herokuapp.com/"
+                >
+                  See Live
+                </a>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  href="https://github.com/Edax97/ocr_github"
+                >
+                  Source Code
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <a rel="noreferrer" href="https://talavera-ocr.herokuapp.com/" target="_blank">
+                  <div
+                    data-tilt
+                    data-tilt-max="4"
+                    data-tilt-glare="true"
+                    data-tilt-max-glare="0.5"
+                    class="thumbnail rounded js-tilt"
+                  >
+                    <img
+                      alt="Project Image"
+                      class="img-fluid"
+                      src="assets/_OCR_.png"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+
 
           <!-- Notice: each .row is a project -->
           <div class="row">
@@ -169,8 +227,8 @@
                 <div>
                   <p class="mb-4">
                     Displays time stats in a responsive layout. It allows switching
-                    between daily, weekly and monthly stats; and also editing them.
-                    Built with HTML5, CSS and Sass, Bootstrap, Javascript.
+                    between daily, weekly and monthly stats.
+                    Built JS and bootstrap.
                   </p>
                 </div>
                 <a
