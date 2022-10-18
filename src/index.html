@@ -29,7 +29,10 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
     <link rel="stylesheet" href="styles.scss" />
-    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Lobster&family=Montserrat:wght@200&family=Pushster&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Lobster&family=Montserrat:wght@200&family=Pushster&display=swap"
+      rel="stylesheet"
+    />
 
     <script
       defer
@@ -48,18 +51,24 @@
     <section id="hero" class="jumbotron bg-img">
       <div class="container hero-container">
         <h1 class="hero-title load-hidden">
-          Hi, my name is  <span class="text-color-main">Edmar Campos</span>
+          Hi, my name is <span class="text-color-main">Edmar Campos</span>
           <br />
-          I'm a Web developer <i class='fa fa-code text-color-main'></i>
+          I'm a Web developer <i class="fa fa-code text-color-main"></i>
         </h1>
         <p class="hero-cta load-hidden">
-          <a rel="noreferrer" class="cta-btn cta-btn--hero" href="#about">About me</a>
+          <a rel="noreferrer" class="cta-btn cta-btn--hero" href="#about"
+            >About me</a
+          >
         </p>
         <p class="hero-cta load-hidden">
-          <a rel="noreferrer" class="cta-btn cta-btn--hero" href="#projects">Projects</a>
+          <a rel="noreferrer" class="cta-btn cta-btn--hero" href="#projects"
+            >Projects</a
+          >
         </p>
         <p class="hero-cta load-hidden">
-          <a rel="noreferrer" class="cta-btn cta-btn--hero" href="#contact">Contact</a>
+          <a rel="noreferrer" class="cta-btn cta-btn--hero" href="#contact"
+            >Contact</a
+          >
         </p>
       </div>
     </section>
@@ -85,7 +94,8 @@
           <div class="col-md-6 col-sm-12">
             <div class="about-wrapper__info load-hidden">
               <p class="about-wrapper__info-text">
-                Mechatronics Engineer by profession. Mainly focused on Angular and React on the frontend, node on the backend.
+                Mechatronics Engineer by profession. Mainly focused on Angular
+                and React on the frontend, node on the backend.
               </p>
               <p class="about-wrapper__info-text">
                 I like fantasy and literature.
@@ -113,15 +123,71 @@
         <div class="project-wrapper">
           <h2 class="section-title dark-blue-text">Projects</h2>
 
-          <!-- Notice: each .row is a project -->
+          <!-- Interface -->
           <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">Interface</h3>
+                <div>
+                  <p class="mb-4">
+                    Medium style blog demo. Built with angular and ngrx
+                  </p>
+                </div>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--hero"
+                  href="https://interface-net.netlify.app"
+                >
+                  See Live
+                </a>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  href="https://github.com/Edax97/interface"
+                >
+                  Source Code
+                </a>
+              </div>
+            </div>
 
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <a
+                  rel="noreferrer"
+                  href="https://interface-net.netlify.app"
+                  target="_blank"
+                >
+                  <div
+                    data-tilt
+                    data-tilt-max="4"
+                    data-tilt-glare="true"
+                    data-tilt-max-glare="0.5"
+                    class="thumbnail rounded js-tilt"
+                  >
+                    <img
+                      alt="Project Image"
+                      class="img-fluid"
+                      src="https://i.imgur.com/pseSmmU.gif"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+
+          <!-- Social space -->
+          <div class="row">
             <div class="col-lg-4 col-sm-12">
               <div class="project-wrapper__text load-hidden">
                 <h3 class="project-wrapper__text-title">Social Space</h3>
                 <div>
                   <p class="mb-4">
-                    Social network demo with post uploading, post editing, account authorization, following accounts, and more features. Built with angular on the front-end and node in the back-end. 
+                    Social network demo with features as post uploading, post
+                    editing, and account authorization. Built with angular on
+                    the front-end and node in the back-end.
                   </p>
                 </div>
                 <a
@@ -132,13 +198,24 @@
                 >
                   See Live
                 </a>
-                
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  href="https://github.com/Edax97/social-space"
+                >
+                  Source Code
+                </a>
               </div>
             </div>
 
             <div class="col-lg-8 col-sm-12">
               <div class="project-wrapper__image load-hidden">
-                <a rel="noreferrer" href="https://cool-social-space.netlify.app/" target="_blank">
+                <a
+                  rel="noreferrer"
+                  href="https://cool-social-space.netlify.app/"
+                  target="_blank"
+                >
                   <div
                     data-tilt
                     data-tilt-max="4"
@@ -155,19 +232,20 @@
                 </a>
               </div>
             </div>
-
           </div>
           <!-- /END Project -->
 
-          <!-- Notice: each .row is a project -->
+          <!-- Game of Ur -->
           <div class="row">
             <div class="col-lg-4 col-sm-12">
               <div class="project-wrapper__text load-hidden">
-                <h3 class="project-wrapper__text-title">The Royal Game of Ur demo</h3>
+                <h3 class="project-wrapper__text-title">
+                  The Royal Game of Ur demo
+                </h3>
                 <div>
                   <p class="mb-4">
-                    Prototype of an ancient boardgame.
-                    Built with React and Bootstrap.
+                    Prototype of an ancient boardgame. Built with React and
+                    Bootstrap.
                   </p>
                 </div>
                 <a
@@ -190,7 +268,11 @@
             </div>
             <div class="col-lg-8 col-sm-12">
               <div class="project-wrapper__image load-hidden">
-                <a rel="noreferrer" href="https://affectionate-agnesi-fd487f.netlify.app/" target="_blank">
+                <a
+                  rel="noreferrer"
+                  href="https://affectionate-agnesi-fd487f.netlify.app/"
+                  target="_blank"
+                >
                   <div
                     data-tilt
                     data-tilt-max="4"
@@ -209,60 +291,6 @@
             </div>
           </div>
           <!-- /END Project -->
-
-          <!-- Notice: each .row is a project -->
-          <div class="row">
-            <div class="col-lg-4 col-sm-12">
-              <div class="project-wrapper__text load-hidden">
-                <h3 class="project-wrapper__text-title">Character recognition</h3>
-                <div>
-                  <p class="mb-4">
-                    This app takes an image or PDF file and extracts the text within.
-                    For this purpose, the Azure Computer Vision API is employed.
-                    Built with Express and Bootstrap.
-
-                  </p>
-                </div>
-                <a
-                  rel="noreferrer"
-                  target="_blank"
-                  class="cta-btn cta-btn--hero"
-                  href="https://talavera-ocr.herokuapp.com/"
-                >
-                  See Live
-                </a>
-                <a
-                  rel="noreferrer"
-                  target="_blank"
-                  class="cta-btn text-color-main"
-                  href="https://github.com/Edax97/ocr_github"
-                >
-                  Source Code
-                </a>
-              </div>
-            </div>
-            <div class="col-lg-8 col-sm-12">
-              <div class="project-wrapper__image load-hidden">
-                <a rel="noreferrer" href="https://talavera-ocr.herokuapp.com/" target="_blank">
-                  <div
-                    data-tilt
-                    data-tilt-max="4"
-                    data-tilt-glare="true"
-                    data-tilt-max-glare="0.5"
-                    class="thumbnail rounded js-tilt"
-                  >
-                    <img
-                      alt="Project Image"
-                      class="img-fluid"
-                      src="assets/_OCR_.png"
-                    />
-                  </div>
-                </a>
-              </div>
-            </div>
-          </div>
-          <!-- /END Project -->
-          
         </div>
       </div>
     </section>
@@ -273,7 +301,9 @@
       <div class="container">
         <h2 class="section-title">Contact</h2>
         <div class="contact-wrapper load-hidden">
-          <p class="contact-wrapper__text">Send me a message if you have an exciting project!</p>
+          <p class="contact-wrapper__text">
+            Send me a message if you have an exciting project!
+          </p>
           <a
             rel="noreferrer"
             target="_blank"
@@ -296,7 +326,11 @@
           <a rel="noreferrer" href="mailto:ecamposc@uni.pe" target="_blank">
             <i class="fa fa-envelope fa-inverse"></i>
           </a>
-          <a rel="noreferrer" href="https://www.linkedin.com/in/edwin-edmar-campos-alarcon/" target="_blank">
+          <a
+            rel="noreferrer"
+            href="https://www.linkedin.com/in/edwin-edmar-campos-alarcon/"
+            target="_blank"
+          >
             <i class="fa fa-linkedin fa-inverse"></i>
           </a>
           <a rel="noreferrer" href="https://github.com/Edax97" target="_blank">
@@ -308,13 +342,11 @@
 
         <!-- Notice: if you want to give me some credit, it will be huge for me! if not, put your data on it -->
         <p class="footer__text">
-          © 2021 - Site developed by
+          © 2022 - Site developed by
           <a rel="noreferrer" href="https://github.com/Edax97" target="_blank"
             >Edmar Campos</a
           >
         </p>
-
-        
       </div>
     </footer>
     <!-- /END Footer Section -->
